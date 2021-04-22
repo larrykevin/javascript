@@ -1,0 +1,15 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Cosas de javascript ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "content"
+  ],
+  "author": "Larry Caycho <larry.kevin.c.c@gmail.com>",
+  "license": "MIT"
+}

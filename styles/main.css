@@ -1,0 +1,105 @@
+:root {
+    --text-body: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+body {
+    width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "aside main main"
+        "footer footer footer";
+    gap: 36px;
+}
+header {
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    grid-area: header;
+}
+aside {
+    width: 300px;
+    padding: 24px;
+    border-radius: 4px;
+    grid-area: aside;
+    background-color: #f4f4f4;
+}
+main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+}
+h1 {
+    font-size: 4.2rem;
+    font-weight: 900;
+    letter-spacing: -0.16rem;
+    margin-left: 8px;
+}
+h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: -0.04rem;
+}
+h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+h4 {
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+p,li {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 36px;
+}
+ul {
+    margin-top: 16px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a p {
+    font-weight: 400;
+    color: gray;
+    text-decoration: underline;
+}
+pre {
+    border: 1px solid #ddd;
+    border-left: 3px solid blue;
+    border-radius: 4px;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 1.6rem;
+    line-height: 18px;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+    background: #f4f4f4;
+}
+img {
+    width: auto; height: 100%;
+}
+article {
+    margin-top: 32px;
+}
+aside section {
+    margin-left: 20px;
+}
